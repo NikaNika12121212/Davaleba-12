@@ -1,0 +1,29 @@
+:root {
+  --coral:   #f26c6c;
+  --green:   #2ecc71;
+  --purple:  #7b6bca;
+  --dark:    #3d3d3d;
+  --white:   #ffffff;
+  --input-border: #e0e0e0;
+  --error-red: #e74c3c;
+  --error-text: #e74c3c;
+  --label-color: #aaaaaa;
+  --font: 'Nunito', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--font);
+  background: #f0f0f0;
+  -webkit-font-smoothing: antialiased;
+}
